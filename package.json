@@ -1,24 +1,53 @@
 {
-  "main": "node_modules/expo/AppEntry.js",
-  "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "eject": "expo eject"
-  },
-  "dependencies": {
-    "expo": "^35.0.0",
-    "moment": "^2.24.0",
-    "prop-types": "^15.7.2",
-    "react": "16.8.3",
-    "react-dom": "16.8.3",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
-    "react-native-swiper": "^1.5.14",
-    "react-native-web": "^0.11.7"
-  },
-  "devDependencies": {
-    "babel-preset-expo": "^7.0.0"
-  },
-  "private": true
+	"main": "index.js",
+	"scripts": {
+		"start": "expo start",
+		"android": "expo start --android",
+		"ios": "expo start --ios",
+		"web": "expo start --web",
+		"eject": "expo eject"
+	},
+	"dependencies": {
+		"moment": "^2.24.0",
+		"prop-types": "^15.7.2",
+		"react-native-swiper": "^1.5.14"
+	},
+	"devDependencies": {
+		"babel-preset-expo": "^7.0.0"
+	},
+	"name": "swipeable-calendar-strip-react-native",
+	"version": "1.0.0",
+	"description": "React Native Swipeable Calendar Strip",
+	"directories": {
+		"lib": "lib"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AVATAR197/React-Native-Swipeable-Calendar-Strip.git"
+	},
+	"keywords": [
+		"react-native",
+		"react-native-calendar",
+		"react-native-calendar-strip",
+		"react-native",
+		"calendar-strip",
+		"swipeable-calendar",
+		"RN",
+		"calendar",
+		"calendar strip",
+		"calendar-strip",
+		"native",
+		"react",
+		"react native",
+		"react native calendar",
+		"react native calendar strip",
+		"rn",
+		"strip"
+	],
+	"author": "Daniel Dopiriak <danieldopiriakdeveloper@gmail.com> (https://danieldopiriak.me/)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/AVATAR197/React-Native-Swipeable-Calendar-Strip/issues"
+	},
+	"homepage": "https://github.com/AVATAR197/React-Native-Swipeable-Calendar-Strip#readme"
 }
