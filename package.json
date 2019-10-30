@@ -16,7 +16,7 @@
 		"babel-preset-expo": "^7.0.0"
 	},
 	"name": "swipeable-calendar-strip-react-native",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "React Native Swipeable Calendar Strip",
 	"directories": {
 		"lib": "lib"
