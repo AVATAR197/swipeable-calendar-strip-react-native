@@ -1,4 +1,4 @@
-# swipeable-calendar-strip-react-native
+# swipeable-calendar-strip-react-native --- in development
 
 React Native library - Swipeable Calendar Strip 
 
