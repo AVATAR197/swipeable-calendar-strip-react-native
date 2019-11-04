@@ -1,4 +1,4 @@
-# swipeable-calendar-strip-react-native --- in development
+# swipeable-calendar-strip-react-native
 
 React Native library - Swipeable Calendar Strip 
 
@@ -24,6 +24,7 @@ const calendar = props => {
         dayPressed={(day) => console.log(day)} //executes when day is pressed -- required
         showHeader={true} //accepts booleans 
         startingDate={moment()} //accepts Date or moment date format -- initial value = moment()
+        activeDay={moment().add(1, "days")} //accepts Date/Moment date format -- initial value = moment()
       />
    )
 }
