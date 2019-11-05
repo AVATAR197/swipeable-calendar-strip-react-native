@@ -21,6 +21,7 @@ import moment from "moment";
 const calendar = props => {
    return (
       <CalendarStrip 
+        height={75} //height of the strip -- default 75
         dayPressed={(day) => console.log(day)} //executes when day is pressed -- required
         showMonth={true} //accepts boolean -- default = true
         showYear={true} //accepts boolean -- default = true
