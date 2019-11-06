@@ -12,6 +12,17 @@ Use npm package manager to install.
 npm install swipeable-calendar-strip-react-native
 ```
 
+## Props
+
+|  Props | Description  | default  | required  |
+|---|---|---|---|
+|  heigth | set the height of the calendar  |  75 | false  |
+|  dayPressed |  return day date format when day is pressed | --- | true |
+|  showMonth | show or hide month data in header   | true  |  false |
+| showYear  | show or hide year data in header  | true  | false  |
+| activeDay  | set the active day, accepts Date/Moment date format  | ---  | false |
+| startingDate  | set the starting Date  | moment()  | false |
+
 ## Usage
 
 ```javascript
