@@ -14,14 +14,16 @@ npm install swipeable-calendar-strip-react-native
 
 ## Props
 
-|  Props | Description  | default  | required  |
+|  Props | Description  | type  | default  |
 |---|---|---|---|
-|  heigth | set the height of the calendar  |  75 | false  |
-|  dayPressed |  return day date format when day is pressed | --- | true |
-|  showMonth | show or hide month data in header   | true  |  false |
-| showYear  | show or hide year data in header  | true  | false  |
-| activeDay  | set the active day, accepts Date/Moment date format  | ---  | false |
-| startingDate  | set the starting Date  | moment()  | false |
+|  heigth | set the height of the calendar  |  number | 75  |
+|  dayPressed |  return day date format when day is pressed | function | --- |
+|  showMonth | show or hide month data in header   | bool  |  true |
+| showYear  | show or hide year data in header  | bool  | true  |
+| activeDay  | set the active day, accepts Date/Moment date format  | funtion  | --- |
+| startingDate  | set the starting Date  | moment() date format  | moment() |
+| onMount  | fire funtion when calendar is mounted  | function | --- |
+| calendarSwiped  | exectutes when calendar is swiped, give one parameter (number) 0=left 2=right  | funtion  | --- |
 
 ## Usage
 
@@ -33,11 +35,13 @@ const calendar = props => {
    return (
       <CalendarStrip 
         height={75} //height of the strip -- default 75
-        dayPressed={(day) => console.log(day)} //executes when day is pressed -- required
+        dayPressed={(day) => console.log(day)} //executes when day is pressed
         showMonth={true} //accepts boolean -- default = true
         showYear={true} //accepts boolean -- default = true
         startingDate={moment()} //accepts Date or moment date format -- default = moment()
         activeDay={moment().add(1, "days")} //accepts Date/Moment date format
+        onMount={() => console.log("calendar did mount")}
+        calendarSwiped={(direction) => direction == 0 ? console.log("calendar swiped to left") : console.log("calendar swiped to right")}
       />
    )
 }
