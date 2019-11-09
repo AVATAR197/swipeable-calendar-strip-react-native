@@ -14,7 +14,7 @@ npm install swipeable-calendar-strip-react-native
 
 ## Props
 
-|  Props | Description  | type  | default  |
+|  Props | Description  | Type  | Default  |
 |---|---|---|---|
 |  heigth | set the height of the calendar  |  number | 75  |
 |  dayPressed |  return day date format when day is pressed | function | --- |
@@ -24,6 +24,17 @@ npm install swipeable-calendar-strip-react-native
 | startingDate  | set the starting Date  | moment() date format  | moment() |
 | onMount  | fire funtion when calendar is mounted  | function | --- |
 | calendarSwiped  | exectutes when calendar is swiped, give one parameter (number) 0=left 2=right  | funtion  | --- |
+
+## Style
+| Prop | Description | Type | Default |
+| ---|---|---|---|
+| style | Style the Parrent component | Any | --- |
+| headerStyle | Style the header, this is necessary for padding of calendar header component | Any | --- |
+| headerText | Style color of fontSize of the header text | Any | --- |
+| dateNameStyle | Style for the name of the day in calendar strip | Any | --- |
+| dateNumberStyle | Style for the number of the day in calendar strip | Any | --- |
+| activeDayBorderColor | Set the color/width of the ActiveDayBorder | String | 'steelblue' |
+
 
 ## Usage
 
