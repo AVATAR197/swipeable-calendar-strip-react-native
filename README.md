@@ -2,6 +2,8 @@
 
 React Native library - Swipeable Calendar Strip 
 
+# WARNINIG - I advise you to not use the library, It has not been maintained for over two years. (I am planning to update the package with the already coded new version which uses react reanimated under the hood, so maybe in upcoming months it will be replaced). For now, I advise you to use your custom solution.
+
 <img src="images/libraryshow.gif" width="250"></img>
 
 ## Installation
